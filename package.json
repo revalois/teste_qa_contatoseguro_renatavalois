@@ -1,0 +1,14 @@
+{
+  "name": "teste_qa_contatoseguro_renatavalois",
+  "version": "1.0.0",
+  "description": "Teste técnico para a vaga de qa jr da empresa Contato Seguro",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Renata Valois",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^13.12.0"
+  }
+}
