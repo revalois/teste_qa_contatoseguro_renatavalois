@@ -2,25 +2,6 @@
 
 Este projeto foi desenvolvido como parte de um teste técnico para a empresa Contato Seguro. Ele contém testes automatizados para o formulário de cadastro ("signup") utilizando Cypress e seguindo o padrão Page Objects.
 
-## Estrutura do Projeto
-
-├── cypress
-│ ├── e2e
-│ │ └── contatoseguro
-│ │ └── signup.cy.js
-| ├── fixtures
-│ ├── page
-│ │ ├── elements.js
-│ │ └── index.js
-│ ├── support
-│ └── commands.js
-│ └── e2e.js
-├── .gitignore
-├── cypress.config.js
-├── package-lock.json
-├── package.json
-└── README.md
-
 ### Descrição dos Arquivos e Diretórios utilizados para o projeto
 
 - `cypress/e2e/contatoseguro/signup.cy.js`: Contém dados de teste.
@@ -36,10 +17,10 @@ Este projeto foi desenvolvido como parte de um teste técnico para a empresa Con
 ## Instalação
 
 1. Clone este repositório:
-   git clone https://github.com/seu-usuario/cypress-contato-seguro.git
-   cd cypress-contato-seguro
+   git clone https://github.com/revalois/teste_qa_contatoseguro_renatavalois.git
+
 2. Instale as dependências do projeto:
-   `npm install` ou `yarn install`
+   `npm install cypress` ou `yarn add cypress`
 
 ## Executando os testes
 
