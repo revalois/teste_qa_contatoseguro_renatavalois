@@ -1,7 +1,10 @@
+//Nesta pasta constam os elementos capturados da página
+
 export const HOME_ELEMENTS = {
   addNewUser: '#new-user',
   userAdded: 'table',
   deleteModal: 'i',
+  body: 'body',
 };
 
 export const FORM_ELEMENTS = {

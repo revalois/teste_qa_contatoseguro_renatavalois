@@ -1,3 +1,5 @@
+//Nesta pasta estão as ações que serão realizadas para os testes
+
 const elements = require('./elements').HOME_ELEMENTS;
 const formElements = require('./elements').FORM_ELEMENTS;
 
@@ -28,6 +30,9 @@ class SignUp {
       .parent('tr')
       .find(':nth-child(1) >img')
       .click();
+
+    //A última linha deste método contém uma captura genérica de um texto de edição, visto que o botão de edição de usuário não responde ao clique.
+    cy.get(elements.body).contains('Editar dados de usuário');
   }
 
   deleteUser() {
